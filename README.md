@@ -5,7 +5,7 @@
 *Просто хранилка маркдауна без возможности регистрации*
 
 ## ЗАПУСК
-Создать .env на основе .env.example
+Создать `.env` на основе `.env.example`
 ```
 docker compose pull
 docker compose up -d
@@ -14,8 +14,8 @@ docker compose up -d
 ## Запуск бека
 ### DEV
 **Нужно:**
-- Постгрес
-- Минио
+- Postgres
+- MinIO
 - Golang >= 1.24
 
 **Запуск**
